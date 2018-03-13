@@ -33,7 +33,7 @@ apis:
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/configurations/master/_listings/akamai/config-media-live-v1-live-utils-delivery-format-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/configurations/master/_listings/akamai/config-media-live-v1-live-utils-ingest-format-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
