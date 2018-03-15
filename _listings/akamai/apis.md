@@ -33,7 +33,7 @@ apis:
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/configurations/master/_listings/akamai/config-gtm-v1-domains-domain-as-maps-mapname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/configurations/master/_listings/akamai/config-gtm-v1-domains-domain-as-maps-mapname-delete.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
