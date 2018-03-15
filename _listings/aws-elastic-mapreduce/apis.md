@@ -32,7 +32,7 @@ apis:
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/configurations/master/_listings/aws-elastic-mapreduce/action-createsecurityconfiguration-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/configurations/master/_listings/aws-elastic-mapreduce/action-deletesecurityconfiguration-get.md
 x-common:
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
