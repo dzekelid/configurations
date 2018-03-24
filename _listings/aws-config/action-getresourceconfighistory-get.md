@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetResourceConfigHistory&k=1:
+  /?Action=GetResourceConfigHistory:
     get:
       summary: ' Get Resource Config History '
       description: Returns a list of configuration items for the specified resource
