@@ -25,7 +25,7 @@ apis:
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-configurations-configurationname-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-configurations-configurationname-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/hdinsight/
