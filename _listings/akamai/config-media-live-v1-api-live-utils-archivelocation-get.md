@@ -24,7 +24,7 @@ paths:
       - live
       - live
       - utils
-      - archivelocation
+      - archives
 definitions: []
 x-collection-name: Akamai
 x-streamrank:
