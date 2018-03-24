@@ -33,7 +33,7 @@ apis:
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-security-v1-security-acgs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-secure-provisioning-service-v1-sps-requests-contractid,groupid,after,information-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
