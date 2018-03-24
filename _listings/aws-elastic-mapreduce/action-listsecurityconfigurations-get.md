@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListSecurityConfigurations&k=1:
+  /?Action=ListSecurityConfigurations:
     get:
       summary: ' List Security Configurations '
       description: Lists all the security configurations visible to this account,
