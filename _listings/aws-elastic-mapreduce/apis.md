@@ -17,9 +17,9 @@ tags:
 - Database
 - Data
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/configurations/master/_listings/aws-elastic-mapreduce/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-mapreduce/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Elastic MapReduce API
@@ -32,7 +32,7 @@ apis:
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/configurations/master/_listings/aws-elastic-mapreduce/action-listsecurityconfigurations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-mapreduce/action-createsecurityconfiguration-get.md
 x-common:
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
