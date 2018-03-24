@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateSecurityConfiguration&k=1:
+  /?Action=CreateSecurityConfiguration:
     get:
       summary: ' Create Security Configuration '
       description: Creates a security configuration, which is stored in the service
