@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSecurityConfiguration&k=1:
+  /?Action=DescribeSecurityConfiguration:
     get:
       summary: ' Describe Security Configuration '
       description: Provides the details of a security configuration by returning the
