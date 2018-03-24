@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSecurityConfiguration&k=1:
+  /?Action=DeleteSecurityConfiguration:
     get:
       summary: ' Delete Security Configuration '
       description: Deletes a security configuration
