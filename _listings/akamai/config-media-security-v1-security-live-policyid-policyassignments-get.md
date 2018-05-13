@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List Policy Assignments
+  description: List Policy Assignments
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: List Policy Assignments
       operationId: configmediasecurityv1securitylivepolicyidpolicyassignments
       parameters:
-      - in: Number
+      - in: query
         name: policyID
         description: The ID of the policy to fetch
         type: string
