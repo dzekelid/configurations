@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API Describe Security Configuration
   version: 1.0.0
+  description: Provides the details of a security configuration by returning the configuration
+    JSON.
 schemes:
 - http
 produces:
