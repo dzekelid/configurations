@@ -70,15 +70,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-gtm-v1-domains-domain-cidr-maps-mapname-delete.md
-- name: Akamai API Get an AS Map
-  description: Get an AS Map
+- name: Akamai API Create or Update an AS Map
+  description: Create or Update an AS Map
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-gtm-v1-domains-domain-as-maps-mapname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-gtm-v1-domains-domain-as-maps-mapname-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
