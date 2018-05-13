@@ -33,16 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-mapreduce/action-listsecurityconfigurations-get.md
-- name: AWS Elastic MapReduce API Create Security Configuration
-  description: Creates a security configuration, which is stored in the service and
-    can be specified when a cluster is created.
+- name: AWS Elastic MapReduce API Delete Security Configuration
+  description: Deletes a security configuration.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
   humanURL: https://aws.amazon.com/emr/
   baseURL: http:://{host}//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-mapreduce/action-createsecurityconfiguration-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-mapreduce/action-deletesecurityconfiguration-get.md
 x-common:
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
