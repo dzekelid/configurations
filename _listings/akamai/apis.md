@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-starttimesec,endtimesec,dimension,filters-get.md
-- name: Akamai API Report Security Event Aggregation
-  description: Report Security Event Aggregation
+- name: Akamai API Report Security Event Details
+  description: Report Security Event Details
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/etp-report-v1-configs-configid-threat-events-aggregate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/etp-report-v1-configs-configid-threat-events-details-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
