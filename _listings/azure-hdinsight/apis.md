@@ -26,15 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-configurations-configurationname-get.md
-- name: Azure HDInsight API Configurations Update HTTPSettings
-  description: Begins configuring the HTTP settings on the specified cluster.
+- name: Azure HDInsight API Configurations Get
+  description: The configuration object for the specified cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
   humanURL: https://azure.microsoft.com/en-us/services/hdinsight/
   baseURL: http:://management.azure.com//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-configurations-configurationname-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-configurations-configurationname-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-configurations-configurationname-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/hdinsight/
