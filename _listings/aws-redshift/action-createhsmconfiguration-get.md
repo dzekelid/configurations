@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Create Hsm Configuration
   version: 1.0.0
+  description: |-
+    Creates an HSM configuration that contains the information required by an Amazon Redshift
+                cluster to store and use database encryption keys in a Hardware Security Module (HSM).
 schemes:
 - http
 produces:
