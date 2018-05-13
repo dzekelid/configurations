@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API List Security Configurations
   version: 1.0.0
+  description: Lists all the security configurations visible to this account, providing
+    their creation dates and times, and their names.
 schemes:
 - http
 produces:
