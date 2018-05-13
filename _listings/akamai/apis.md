@@ -43,15 +43,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-live-v1-live-domain-stream-streamid-get.md
-- name: Akamai API List Countries
-  description: List Countries
+- name: Akamai API List CP Codes
+  description: List CP Codes
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-live-v1-live-utils-countries-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-live-v1-live-utils-cpcode-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
