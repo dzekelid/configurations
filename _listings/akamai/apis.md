@@ -52,15 +52,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-saas-registration-v1-pairs-post.md
-- name: Akamai API Modify a Pair
-  description: Modify a Pair
+- name: Akamai API List Policies
+  description: List Policies
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-saas-registration-v1-pairs-surrogateid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-security-v1-security-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
