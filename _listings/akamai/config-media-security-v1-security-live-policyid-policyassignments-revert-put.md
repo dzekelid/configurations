@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Revert a Policy Assignment Promotion
+  description: Revert a Policy Assignment Promotion
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Revert a Policy Assignment Promotion
       operationId: configmediasecurityv1securitylivepolicyidpolicyassignmentsrevert
       parameters:
-      - in: Number
+      - in: query
         name: policyID
         description: The ID of the policy to fetch
         type: string
