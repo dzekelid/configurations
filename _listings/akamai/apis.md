@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-starttimesec,endtimesec,dimension,filters-get.md
-- name: Akamai API List Archive Locations
-  description: List Archive Locations
+- name: Akamai API List Contacts
+  description: List Contacts
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-live-v1-api-live-utils-archivelocation-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-live-v1-live-utils-contacts-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
