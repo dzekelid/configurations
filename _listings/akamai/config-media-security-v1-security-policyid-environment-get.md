@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get Policy per Environment
+  description: Get Policy per Environment
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Get Policy per Environment
       operationId: configmediasecurityv1securitypolicyidenvironment
       parameters:
-      - in: Enumeration
+      - in: query
         name: environment
         description: The environment
         type: string
-      - in: Number
+      - in: query
         name: policyID
         description: The ID of the policy to fetch
         type: string
