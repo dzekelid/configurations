@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get Activation Status
+  description: Get Activation Status
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Get Activation Status
       operationId: configmedialivev1livedomainversionversionidactivation
       parameters:
-      - in: String
+      - in: query
         name: domain
         description: Unique identifier for each domain
         type: string
-      - in: Number
+      - in: query
         name: versionId
         description: Domain&#8217;s incremental version number
         type: string
