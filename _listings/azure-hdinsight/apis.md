@@ -26,7 +26,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-configurations-configurationname-get.md
+- name: Azure HDInsight API Configurations Update HTTPSettings
+  description: Begins configuring the HTTP settings on the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
+  humanURL: https://azure.microsoft.com/en-us/services/hdinsight/
+  baseURL: http:://management.azure.com//
+  tags: Configurations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-configurations-configurationname-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/hdinsight/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/hdinsight/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/hdinsight/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/hdinsight/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/hdinsight/
 - type: x-pricing
