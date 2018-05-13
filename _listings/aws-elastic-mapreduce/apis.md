@@ -33,16 +33,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-mapreduce/action-listsecurityconfigurations-get.md
-- name: AWS Elastic MapReduce API Describe Security Configuration
-  description: Provides the details of a security configuration by returning the configuration
-    JSON.
+- name: AWS Elastic MapReduce API List Security Configurations
+  description: Lists all the security configurations visible to this account, providing
+    their creation dates and times, and their names.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
   humanURL: https://aws.amazon.com/emr/
   baseURL: http:://{host}//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-mapreduce/action-describesecurityconfiguration-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-mapreduce/action-listsecurityconfigurations-get.md
 x-common:
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
