@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Modify an Event
+  description: Modify an Event
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,15 +19,15 @@ paths:
       description: Modify an Event
       operationId: configmedialivev1livedomainstreamstreamideventeventname
       parameters:
-      - in: String
+      - in: query
         name: domain
         description: Unique identifier for each domain
         type: string
-      - in: String
+      - in: query
         name: eventName
         description: Human-readable event name
         type: string
-      - in: Number
+      - in: query
         name: streamId
         description: Unique identifier for each stream
         type: string
