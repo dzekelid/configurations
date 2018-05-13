@@ -31,17 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/action-describehsmconfigurations-get.md
-- name: Amazon Redshift API Create Hsm Configuration
-  description: |-
-    Creates an HSM configuration that contains the information required by an Amazon Redshift
-                cluster to store and use database encryption keys in a Hardware Security Module (HSM).
+- name: Amazon Redshift API Delete Hsm Configuration
+  description: Deletes the specified Amazon Redshift HSM configuration.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
   baseURL: http:://{host}//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/action-createhsmconfiguration-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/action-deletehsmconfiguration-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
