@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List Streams
+  description: List Streams
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: List Streams
       operationId: configmedialivev1livedomainstream
       parameters:
-      - in: String
+      - in: query
         name: domain
         description: Unique identifier for each domain
         type: string
