@@ -43,15 +43,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-live-v1-live-domain-stream-streamid-get.md
-- name: Akamai API Promote a Policy
-  description: Promote a Policy
+- name: Akamai API Remove a Policy
+  description: Remove a Policy
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Configurations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-security-v1-security-policyid-promote-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/akamai/config-media-security-v1-security-policyid-promotedelete-delete.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
