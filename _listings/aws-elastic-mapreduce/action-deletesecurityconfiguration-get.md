@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API Delete Security Configuration
   version: 1.0.0
+  description: Deletes a security configuration.
 schemes:
 - http
 produces:
