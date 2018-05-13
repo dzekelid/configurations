@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Delete Hsm Configuration
   version: 1.0.0
+  description: Deletes the specified Amazon Redshift HSM configuration.
 schemes:
 - http
 produces:
