@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API Create Security Configuration
   version: 1.0.0
+  description: Creates a security configuration, which is stored in the service and
+    can be specified when a cluster is created.
 schemes:
 - http
 produces:
