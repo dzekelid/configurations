@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Remove a Stream
+  description: Remove a Stream
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Remove a Stream
       operationId: configmedialivev1livedomainstreamstreamid
       parameters:
-      - in: String
+      - in: query
         name: domain
         description: Unique identifier for each domain
         type: string
-      - in: Number
+      - in: query
         name: streamId
         description: Unique identifier for each stream
         type: string
