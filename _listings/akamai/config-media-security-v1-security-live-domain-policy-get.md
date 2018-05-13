@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get an HD Config Policy
+  description: Get an HD Config Policy
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Get an HD Config Policy
       operationId: configmediasecurityv1securitylivedomainpolicy
       parameters:
-      - in: String
+      - in: query
         name: domain
         description: The fully qualified domain name for the host in question
         type: string
