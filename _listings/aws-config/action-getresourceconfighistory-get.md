@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Get Resource Config History
   version: 1.0.0
+  description: Returns a list of configuration items for the specified resource.
 schemes:
 - http
 produces:
