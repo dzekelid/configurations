@@ -37,8 +37,8 @@ paths:
         type: string
       - in: query
         name: nextToken
-        description: "The nextToken string returned on a previous page that\t\t\tyou
-          use to get the next page of results in a paginated response"
+        description: The nextToken string returned on a previous page thatyou use
+          to get the next page of results in a paginated response
         type: string
       - in: query
         name: resourceId

@@ -6,10 +6,10 @@ description: Azure HDInsight is a Hadoop-based service that brings an Apache Had
   that manages data of any type and size.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Configurations
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   tags: Configurations Httpsettings
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofthdinsightclustersclusternameconfigurationsconfigurationname-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-post-openapi.md
 - name: Azure HDInsight API Configurations Get
   x-api-slug: azure-hdinsight-api
   description: The configuration object for the specified cluster.
@@ -32,9 +32,9 @@ apis:
   tags: Configurations
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofthdinsightclustersclusternameconfigurationsconfigurationname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofthdinsightclustersclusternameconfigurationsconfigurationname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-get-openapi.md
 - name: Azure HDInsight API
   x-api-slug: azure-hdinsight-api
   description: Azure HDInsight is a Hadoop-based service that brings an Apache Hadoop
