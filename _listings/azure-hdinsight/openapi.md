@@ -16,7 +16,29 @@ consumes:
 - application/json
 paths:
   ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations/{configurationName}
-  : post:
+  : get:
+      summary: Configurations Get
+      description: The configuration object for the specified cluster.
+      operationId: Configurations_Get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-get
+      parameters:
+      - in: path
+        name: clusterName
+        description: The name of the cluster
+      - in: path
+        name: configurationName
+        description: The constant for configuration type of gateway
+      - in: query
+        name: No Name
+      - in: path
+        name: resourceGroupName
+        description: The name of the resource group
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configurations
+    post:
       summary: Configurations Update HTTPSettings
       description: Begins configuring the HTTP settings on the specified cluster.
       operationId: Configurations_UpdateHTTPSettings
@@ -43,26 +65,4 @@ paths:
           description: OK
       tags:
       - Configurations Httpsettings
-    get:
-      summary: Configurations Get
-      description: The configuration object for the specified cluster.
-      operationId: Configurations_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-get
-      parameters:
-      - in: path
-        name: clusterName
-        description: The name of the cluster
-      - in: path
-        name: configurationName
-        description: The constant for configuration type of gateway
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Configurations
 ---

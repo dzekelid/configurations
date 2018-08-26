@@ -12,6 +12,23 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=ListSecurityConfigurations:
+    get:
+      summary: List Security Configurations
+      description: Lists all the security configurations visible to this account,
+        providing their creation dates and times, and their names.
+      operationId: listSecurityConfigurations
+      x-api-path-slug: actionlistsecurityconfigurations-get
+      parameters:
+      - in: query
+        name: Marker
+        description: The pagination token that indicates the set of results to retrieve
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Security Configurations
   /?Action=CreateSecurityConfiguration:
     get:
       summary: Create Security Configuration
@@ -60,23 +77,6 @@ paths:
       - in: query
         name: Name
         description: The name of the security configuration
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Security Configurations
-  /?Action=ListSecurityConfigurations:
-    get:
-      summary: List Security Configurations
-      description: Lists all the security configurations visible to this account,
-        providing their creation dates and times, and their names.
-      operationId: listSecurityConfigurations
-      x-api-path-slug: actionlistsecurityconfigurations-get
-      parameters:
-      - in: query
-        name: Marker
-        description: The pagination token that indicates the set of results to retrieve
         type: string
       responses:
         200:

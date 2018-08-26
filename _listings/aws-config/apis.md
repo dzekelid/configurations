@@ -13,39 +13,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-config/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Config API Get Resource Config History
-  x-api-slug: aws-config-api
-  description: Returns a list of configuration items for the specified resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
-  humanURL: https://aws.amazon.com/config/
-  baseURL: ://///?Action=GetResourceConfigHistory
-  tags: Resource Configurations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-config/actiongetresourceconfighistory-get-openapi.md
-- name: AWS Config API
-  x-api-slug: aws-config-api
-  description: AWS Config is a fully managed service that provides you with an AWS
-    resource inventory, configuration history, and configuration change notifications
-    to enable security and governance. Config Rules enables you to create rules that
-    automatically check the configuration of AWS resources recorded by AWS Config.With
-    AWS Config, you can discover existing and deleted AWS resources, determine your
-    overall compliance against rules, and dive into configuration details of a resource
-    at any point in time. These capabilities enable compliance auditing, security
-    analysis, resource change tracking, and troubleshooting.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
-  humanURL: https://aws.amazon.com/config/
-  baseURL: :///
-  tags: Configurations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-config/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.cognito.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.config.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
 - type: x-console

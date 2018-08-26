@@ -12,45 +12,106 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetResourceConfigHistory:
+  /?Action=DeleteConfigurationRecorder:
     get:
-      summary: Get Resource Config History
-      description: Returns a list of configuration items for the specified resource.
-      operationId: getResourceConfigHistory
-      x-api-path-slug: actiongetresourceconfighistory-get
+      summary: Delete Configuration Recorder
+      description: Deletes the configuration recorder.
+      operationId: deleteConfigurationRecorder
+      x-api-path-slug: actiondeleteconfigurationrecorder-get
       parameters:
       - in: query
-        name: chronologicalOrder
-        description: The chronological order for configuration items listed
-        type: string
-      - in: query
-        name: earlierTime
-        description: The time stamp that indicates an earlier time
-        type: string
-      - in: query
-        name: laterTime
-        description: The time stamp that indicates a later time
-        type: string
-      - in: query
-        name: limit
-        description: The maximum number of configuration items returned on each page
-        type: string
-      - in: query
-        name: nextToken
-        description: The nextToken string returned on a previous page thatyou use
-          to get the next page of results in a paginated response
-        type: string
-      - in: query
-        name: resourceId
-        description: The ID of the resource (for example
-        type: string
-      - in: query
-        name: resourceType
-        description: The resource type
+        name: ConfigurationRecorderName
+        description: The name of the configuration recorder to be deleted
         type: string
       responses:
         200:
           description: OK
       tags:
-      - Resource Configurations
+      - Configuration Recorders
+  /?Action=DescribeConfigurationRecorders:
+    get:
+      summary: Describe Configuration Recorders
+      description: Returns the details for the specified configuration recorders.
+      operationId: describeConfigurationRecorders
+      x-api-path-slug: actiondescribeconfigurationrecorders-get
+      parameters:
+      - in: query
+        name: ConfigurationRecorderNames
+        description: A list of configuration recorder names
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Rules
+  /?Action=DescribeConfigurationRecorderStatus:
+    get:
+      summary: Describe Configuration Recorder Status
+      description: Returns the current status of the specified configuration recorder.
+      operationId: describeConfigurationRecorderStatus
+      x-api-path-slug: actiondescribeconfigurationrecorderstatus-get
+      parameters:
+      - in: query
+        name: ConfigurationRecorderNames
+        description: The name(s) of the configuration recorder
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Rules
+  /?Action=PutConfigurationRecorder:
+    get:
+      summary: Put Configuration Recorder
+      description: Creates a new configuration recorder to record the selected resource
+        configurations.
+      operationId: putConfigurationRecorder
+      x-api-path-slug: actionputconfigurationrecorder-get
+      parameters:
+      - in: query
+        name: ConfigurationRecorder
+        description: The configuration recorder object that records each configuration
+          change made to the resources
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Recorders
+  /?Action=StartConfigurationRecorder:
+    get:
+      summary: Start Configuration Recorder
+      description: Starts recording configurations of the AWS resources you have selected
+        to record in your AWS account.
+      operationId: startConfigurationRecorder
+      x-api-path-slug: actionstartconfigurationrecorder-get
+      parameters:
+      - in: query
+        name: ConfigurationRecorderName
+        description: The name of the recorder object that records each configuration
+          change made to the resources
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Recorders
+  /?Action=StopConfigurationRecorder:
+    get:
+      summary: Stop Configuration Recorder
+      description: Stops recording configurations of the AWS resources you have selected
+        to record in your AWS account.
+      operationId: stopConfigurationRecorder
+      x-api-path-slug: actionstopconfigurationrecorder-get
+      parameters:
+      - in: query
+        name: ConfigurationRecorderName
+        description: The name of the recorder object that records each configuration
+          change made to the resources
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Recorders
 ---

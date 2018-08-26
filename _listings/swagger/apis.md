@@ -7,86 +7,18 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swag
 x-kinRank: "8"
 x-alexaRank: "23056"
 tags: Configurations
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/swagger/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Swagger Hub Registry Deletes the provided Plugin configuration
-  x-api-slug: swagger-hub-registry
-  description: Deletes the provided plugin configuration.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
-  humanURL: https://swagger.io/
-  baseURL: https://api.swaggerhub.com////plugins/configurations
-  tags: Plugins,Configurations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/swagger/pluginsconfigurations-delete-openapi.md
-- name: Swagger Hub Registry Retrieves a list of enabled plugin configurations
-  x-api-slug: swagger-hub-registry
-  description: Retrieves a list of enabled plugin configurations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
-  humanURL: https://swagger.io/
-  baseURL: https://api.swaggerhub.com////plugins/configurations
-  tags: Plugins,Configurations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/swagger/pluginsconfigurations-get-openapi.md
-- name: Swagger Hub Registry Saves the provided Plugin configuration
-  x-api-slug: swagger-hub-registry
-  description: Saves the provided plugin configuration.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
-  humanURL: https://swagger.io/
-  baseURL: https://api.swaggerhub.com////plugins/configurations
-  tags: Plugins,Configurations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/swagger/pluginsconfigurations-post-openapi.md
-- name: Swagger Hub Registry Updated the provided Plugin configuration
-  x-api-slug: swagger-hub-registry
-  description: Updated the provided plugin configuration.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
-  humanURL: https://swagger.io/
-  baseURL: https://api.swaggerhub.com////plugins/configurations
-  tags: Plugins,Configurations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/swagger/pluginsconfigurations-put-openapi.md
-- name: Swagger Hub Registry triggers execution of plugin configuration identified
-    by id
-  x-api-slug: swagger-hub-registry
-  description: Triggers execution of plugin configuration identified by id.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
-  humanURL: https://swagger.io/
-  baseURL: https://api.swaggerhub.com////plugins/configurations/execute/{id}
-  tags: Plugins,Configurations,Execute,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/swagger/pluginsconfigurationsexecuteid-post-openapi.md
-- name: Swagger Hub Registry get configuration schema for the provided Plugin configuration
-  x-api-slug: swagger-hub-registry
-  description: Get configuration schema for the provided plugin configuration.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
-  humanURL: https://swagger.io/
-  baseURL: https://api.swaggerhub.com////plugins/configurations/schema
-  tags: Plugins,Configurations,Schema
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/swagger/pluginsconfigurationsschema-post-openapi.md
-- name: Swagger Hub Registry
-  x-api-slug: swagger-hub-registry
-  description: Swagger aides in development across the entire API lifecycle, from
-    design and documentation, to test and deployment. Try it today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
-  humanURL: https://swagger.io/
-  baseURL: https://api.swaggerhub.com//
-  tags: Configurations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/swagger/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://swagger.io/
+- type: x-api-gallery
+  url: http://sustainable.facilities.tool.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://swagger.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/swagger
 - type: x-github
