@@ -69,6 +69,22 @@ paths:
       - List
       - VAT
       - Configurations
+    post:
+      summary: Create a VAT configuration
+      description: Create a vat configuration.
+      operationId: postRestVat
+      x-api-path-slug: restvat-post
+      parameters:
+      - in: body
+        name: /rest/vat
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - VAT
+      - Configuration
   /rest/vat/locations/{locationId}:
     get:
       summary: List VAT configurations of an accounting location
@@ -230,6 +246,140 @@ paths:
       - From
       - Module
       - Configuration
+  /rest/properties/groups/types:
+    get:
+      summary: Get group types from module configuration
+      description: Get group types from module configuration.
+      operationId: getRestPropertiesGroupsTypes
+      x-api-path-slug: restpropertiesgroupstypes-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Group
+      - Types
+      - From
+      - Module
+      - Configuration
+  /rest/vat/{vatId}:
+    get:
+      summary: Get a VAT configuration by id
+      description: Get a vat configuration by id.
+      operationId: getRestVatVat
+      x-api-path-slug: restvatvatid-get
+      parameters:
+      - in: path
+        name: vatId
+      responses:
+        200:
+          description: OK
+      tags:
+      - VAT
+      - Configuration
+      - By
+      - Id
+    put:
+      summary: Update a VAT configuration
+      description: Update a vat configuration.
+      operationId: putRestVatVat
+      x-api-path-slug: restvatvatid-put
+      parameters:
+      - in: body
+        name: /rest/vat/{vatId}
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: vatId
+      responses:
+        200:
+          description: OK
+      tags:
+      - VAT
+      - Configuration
+  /rest/vat/locations/{locationId}/countries/{countryId}/date/{date}:
+    get:
+      summary: Get a VAT configuration for a country in a location.
+      description: Gets the VAT configuration found by matching the given location,
+        delivery country and date of validity.
+      operationId: getRestVatLocationsLocationCountriesCountryDateDate
+      x-api-path-slug: restvatlocationslocationidcountriescountryiddatedate-get
+      parameters:
+      - in: query
+        name: columns[]
+        description: The attributes of the VAT configuration
+      - in: path
+        name: countryId
+      - in: path
+        name: date
+      - in: path
+        name: locationId
+      - in: query
+        name: startDate
+        description: The date of validity
+      - in: query
+        name: with[]
+        description: The relations to load with the VAT object
+      responses:
+        200:
+          description: OK
+      tags:
+      - VAT
+      - Configurationa
+      - Country
+      - In
+      - Location
+  /rest/vat/locations/{locationId}/countries/{countryId}:
+    get:
+      summary: List VAT configurations for one country of delivery
+      description: Lists the VAT configurations for a country of delivery of one accounting
+        location. The ID of the accounting location and the ID of the country of delivery
+        must be specified.
+      operationId: getRestVatLocationsLocationCountriesCountry
+      x-api-path-slug: restvatlocationslocationidcountriescountryid-get
+      parameters:
+      - in: query
+        name: columns[]
+        description: The attributes of the VAT configuration
+      - in: path
+        name: countryId
+      - in: path
+        name: locationId
+      - in: query
+        name: with[]
+        description: The relations to load with the VAT object
+      responses:
+        200:
+          description: OK
+      tags:
+      - List
+      - VAT
+      - Configurationsone
+      - Country
+      - Of
+      - Delivery
+  /rest/logs/settings:
+    get:
+      summary: Show config.
+      description: Show config..
+      operationId: getRestLogsSettings
+      x-api-path-slug: restlogssettings-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Show
+      - Config
+    post:
+      summary: Save config.
+      description: Save config..
+      operationId: postRestLogsSettings
+      x-api-path-slug: restlogssettings-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Save
+      - Config
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

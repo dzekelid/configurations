@@ -11,11 +11,99 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Redshift API - Describe Hsm Configurations
+  x-api-slug: actiondescribehsmconfigurations-get
+  description: Returns information about the specified Amazon Redshift HSM configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/actiondescribehsmconfigurations-get-openapi.md
+- name: AWS Redshift API - Create Hsm Configuration
+  x-api-slug: actioncreatehsmconfiguration-get
+  description: |-
+    Creates an HSM configuration that contains the information required by an Amazon Redshift
+                cluster to store and use database encryption keys in a Hardware Security Module (HSM).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/actioncreatehsmconfiguration-get-openapi.md
+- name: AWS Redshift API - Delete Hsm Configuration
+  x-api-slug: actiondeletehsmconfiguration-get
+  description: Deletes the specified Amazon Redshift HSM configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/actiondeletehsmconfiguration-get-openapi.md
+- name: AWS Redshift API - Describe Hsm Configurations
+  x-api-slug: actiondescribehsmconfigurations-get
+  description: Returns information about the specified Amazon Redshift HSM configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/actiondescribehsmconfigurations-get-openapi.md
+- name: AWS Redshift API - Create Hsm Configuration
+  x-api-slug: actioncreatehsmconfiguration-get
+  description: |-
+    Creates an HSM configuration that contains the information required by an Amazon Redshift
+                cluster to store and use database encryption keys in a Hardware Security Module (HSM).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/actioncreatehsmconfiguration-get-openapi.md
+- name: AWS Redshift API - Delete Hsm Configuration
+  x-api-slug: actiondeletehsmconfiguration-get
+  description: Deletes the specified Amazon Redshift HSM configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/actiondeletehsmconfiguration-get-openapi.md
+- name: AWS Redshift API - Describe Hsm Configurations
+  x-api-slug: actiondescribehsmconfigurations-get
+  description: Returns information about the specified Amazon Redshift HSM configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-redshift/actiondescribehsmconfigurations-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.rds.api.gallery.streamdata.io

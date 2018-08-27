@@ -7,11 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursq
 x-kinRank: "9"
 x-alexaRank: "2544"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/foursquare/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Foursquare - Get Specials Configuration
+  x-api-slug: specialsspecial-idconfiguration-get
+  description: /specials/search
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/foursquare/specialsspecial-idconfiguration-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/foursquare/specialsspecial-idconfiguration-get-openapi.md
 - name: Foursquare - Get Specials Configuration
   x-api-slug: specialsspecial-idconfiguration-get
   description: /specials/search

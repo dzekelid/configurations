@@ -9,11 +9,44 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AutomationManagementClient - Dsc Configuration Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-delete
+  description: Delete the dsc configuration identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-delete-openapi.md
+- name: AutomationManagementClient - Dsc Configuration Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-get
+  description: Retrieve the configuration identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-get-openapi.md
+- name: AutomationManagementClient - Dsc Configuration Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-put
+  description: Create the configuration identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-put-openapi.md
 - name: AutomationManagementClient - Dsc Configuration Get Content
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationnamecontent-get
   description: Retrieve the configuration script identified by configuration name.
@@ -40,6 +73,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurations-get-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-delete
+  description: Delete the Dsc node configurations by node configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-delete-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-get
+  description: Retrieve the Dsc node configurations by node configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-get-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-put
+  description: Create the node configuration identified by node configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-put-openapi.md
 - name: AutomationManagementClient - Dsc Node Configuration List By Automation Account
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurations-get
   description: Retrieve a list of dsc node configurations.
@@ -53,6 +119,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurations-get-openapi.md
+- name: AutomationManagementClient - Dsc Configuration Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-delete
+  description: Delete the dsc configuration identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-delete-openapi.md
+- name: AutomationManagementClient - Dsc Configuration Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-get
+  description: Retrieve the configuration identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-get-openapi.md
+- name: AutomationManagementClient - Dsc Configuration Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-put
+  description: Create the configuration identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-put-openapi.md
 - name: AutomationManagementClient - Dsc Configuration Get Content
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationnamecontent-get
   description: Retrieve the configuration script identified by configuration name.
@@ -79,6 +178,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurations-get-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-delete
+  description: Delete the Dsc node configurations by node configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-delete-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-get
+  description: Retrieve the Dsc node configurations by node configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-get-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-put
+  description: Create the node configuration identified by node configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-put-openapi.md
 - name: AutomationManagementClient - Dsc Node Configuration List By Automation Account
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurations-get
   description: Retrieve a list of dsc node configurations.
@@ -92,6 +224,111 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurations-get-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration List By Automation Account
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurations-get
+  description: Retrieve a list of dsc node configurations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurations-get-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-put
+  description: Create the node configuration identified by node configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-put-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-get
+  description: Retrieve the Dsc node configurations by node configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-get-openapi.md
+- name: AutomationManagementClient - Dsc Node Configuration Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-delete
+  description: Delete the Dsc node configurations by node configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodeconfigurationsnodeconfigurationname-delete-openapi.md
+- name: AutomationManagementClient - Dsc Configuration List By Automation Account
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurations-get
+  description: Retrieve a list of configurations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurations-get-openapi.md
+- name: AutomationManagementClient - Dsc Configuration Get Content
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationnamecontent-get
+  description: Retrieve the configuration script identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationnamecontent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationnamecontent-get-openapi.md
+- name: AutomationManagementClient - Dsc Configuration Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-put
+  description: Create the configuration identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-put-openapi.md
+- name: AutomationManagementClient - Dsc Configuration Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-get
+  description: Retrieve the configuration identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-get-openapi.md
+- name: AutomationManagementClient - Dsc Configuration Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-delete
+  description: Delete the dsc configuration identified by configuration name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationname-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://azure.application.insights.api.gallery.streamdata.io

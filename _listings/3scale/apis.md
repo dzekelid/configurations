@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.j
 x-kinRank: "10"
 x-alexaRank: "333433"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
+- name: 3Scale Account Management API - Nginx configuration files
+  x-api-slug: adminapinginx-zip-get
+  description: Nginx configuration files.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/3scale/adminapinginx-zip-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/3scale/adminapinginx-zip-get-openapi.md
 - name: 3Scale Account Management API - Nginx configuration files
   x-api-slug: adminapinginx-zip-get
   description: Nginx configuration files.

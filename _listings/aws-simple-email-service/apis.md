@@ -9,11 +9,102 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Simple Email Service API - Create Configuration Set
+  x-api-slug: actioncreateconfigurationset-get
+  description: Creates a configuration set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actioncreateconfigurationset-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actioncreateconfigurationset-get-openapi.md
+- name: AWS Simple Email Service API - Create Configuration Set Event Destination
+  x-api-slug: actioncreateconfigurationseteventdestination-get
+  description: Creates a configuration set event destination.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actioncreateconfigurationseteventdestination-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actioncreateconfigurationseteventdestination-get-openapi.md
+- name: AWS Simple Email Service API - Delete Configuration Set
+  x-api-slug: actiondeleteconfigurationset-get
+  description: Deletes a configuration set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actiondeleteconfigurationset-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actiondeleteconfigurationset-get-openapi.md
+- name: AWS Simple Email Service API - Delete Configuration Set Event Destination
+  x-api-slug: actiondeleteconfigurationseteventdestination-get
+  description: Deletes a configuration set event destination.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actiondeleteconfigurationseteventdestination-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actiondeleteconfigurationseteventdestination-get-openapi.md
+- name: AWS Simple Email Service API - Describe Configuration Set
+  x-api-slug: actiondescribeconfigurationset-get
+  description: Returns the details of the specified configuration set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actiondescribeconfigurationset-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actiondescribeconfigurationset-get-openapi.md
+- name: AWS Simple Email Service API - List Configuration Sets
+  x-api-slug: actionlistconfigurationsets-get
+  description: Lists the configuration sets associated with your AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actionlistconfigurationsets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actionlistconfigurationsets-get-openapi.md
+- name: AWS Simple Email Service API - Update Configuration Set Event Destination
+  x-api-slug: actionupdateconfigurationseteventdestination-get
+  description: Updates the event destination of a configuration set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actionupdateconfigurationseteventdestination-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-simple-email-service/actionupdateconfigurationseteventdestination-get-openapi.md
 - name: AWS Simple Email Service API - Create Configuration Set
   x-api-slug: actioncreateconfigurationset-get
   description: Creates a configuration set.

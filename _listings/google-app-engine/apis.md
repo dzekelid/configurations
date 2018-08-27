@@ -10,11 +10,77 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/google-app-engine/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google App Engine Admin - Get Configuration
+  x-api-slug: v1appsappsidservicesservicesid-get
+  description: Gets the current configuration of the specified service.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-app-engine-icon.png
+  humanURL: https://cloud.google.com/appengine/
+  baseURL: ://appengine.googleapis.com//
+  tags: Google APIs, Compute, Cloud, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/google-app-engine/v1appsappsidservicesservicesid-get-openapi.md
+- name: Google App Engine Admin - Update Configuration
+  x-api-slug: v1appsappsidservicesservicesid-patch
+  description: Updates the configuration of the specified service.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-app-engine-icon.png
+  humanURL: https://cloud.google.com/appengine/
+  baseURL: ://appengine.googleapis.com//
+  tags: Google APIs, Compute, Cloud, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/google-app-engine/v1appsappsidservicesservicesid-patch-openapi.md
+- name: Google App Engine Admin - Get Configuration
+  x-api-slug: v1appsappsidservicesservicesid-get
+  description: Gets the current configuration of the specified service.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-app-engine-icon.png
+  humanURL: https://cloud.google.com/appengine/
+  baseURL: ://appengine.googleapis.com//
+  tags: Google APIs, Compute, Cloud, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/google-app-engine/v1appsappsidservicesservicesid-get-openapi.md
+- name: Google App Engine Admin - Update Configuration
+  x-api-slug: v1appsappsidservicesservicesid-patch
+  description: Updates the configuration of the specified service.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-app-engine-icon.png
+  humanURL: https://cloud.google.com/appengine/
+  baseURL: ://appengine.googleapis.com//
+  tags: Google APIs, Compute, Cloud, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/google-app-engine/v1appsappsidservicesservicesid-patch-openapi.md
+- name: Google App Engine Admin - Get Configuration
+  x-api-slug: v1appsappsidservicesservicesid-get
+  description: Gets the current configuration of the specified service.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-app-engine-icon.png
+  humanURL: https://cloud.google.com/appengine/
+  baseURL: ://appengine.googleapis.com//
+  tags: Google APIs, Compute, Cloud, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/google-app-engine/v1appsappsidservicesservicesid-get-openapi.md
+- name: Google App Engine Admin - Update Configuration
+  x-api-slug: v1appsappsidservicesservicesid-patch
+  description: Updates the configuration of the specified service.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-app-engine-icon.png
+  humanURL: https://cloud.google.com/appengine/
+  baseURL: ://appengine.googleapis.com//
+  tags: Google APIs, Compute, Cloud, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/google-app-engine/v1appsappsidservicesservicesid-patch-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.api.discovery.service.api.gallery.streamdata.io

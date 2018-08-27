@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,38 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/atlassian/api2applicationpropertiesadvancedsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/atlassian/api2applicationpropertiesadvancedsettings-get-openapi.md
+- name: Jira Cloud REST API - Get advanced settings
+  x-api-slug: api2applicationpropertiesadvancedsettings-get
+  description: Returns the properties that are displayed on the General Configuration
+    Advanced Settings page.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/atlassian/api2applicationpropertiesadvancedsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/atlassian/api2applicationpropertiesadvancedsettings-get-openapi.md
+- name: Jira Cloud REST API - Get time tracking settings
+  x-api-slug: api2configurationtimetrackingoptions-get
+  description: "Returns the time tracking settings. This includes settings such as
+    the time format, default time unit, and others. For more information, see [Configuring
+    time tracking](https://confluence.atlassian.com/x/qoXKM).  \n  \n**[Permissions](https://developer.atlassian.com/cloud/jira/platform/rest/#permissions)
+    required:** Jira administration (that is, member of the _administrators_ [group](https://confluence.atlassian.com/x/24xjL))."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/atlassian/api2configurationtimetrackingoptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/atlassian/api2configurationtimetrackingoptions-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json

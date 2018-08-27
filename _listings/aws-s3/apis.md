@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/apis.md
 specificationVersion: "0.14"
 apis:
@@ -215,6 +215,174 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventory-get-openapi.md
+- name: No Title - List Bucket Analytics Configurations
+  x-api-slug: analytics-get
+  description: This implementation of the GET operation returns a list of analyticsconfigurations
+    for the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analytics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analytics-get-openapi.md
+- name: No Title - List Bucket Inventory Configurations
+  x-api-slug: inventory-get
+  description: This implementation of the GET operation returns a list of inventoryconfigurations
+    for the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventory-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventory-get-openapi.md
+- name: No Title - GET Bucket inventory configuration
+  x-api-slug: inventoryampidinventoryconfigurationid-get
+  description: This implementation of the GET operation returns an inventory configuration
+    (identified bythe inventory configuration ID) from the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidinventoryconfigurationid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidinventoryconfigurationid-get-openapi.md
+- name: No Title - GET Bucket inventory configuration
+  x-api-slug: inventoryampidinventoryconfigurationid-get
+  description: This implementation of the GET operation returns an inventory configuration
+    (identified bythe inventory configuration ID) from the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidinventoryconfigurationid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidinventoryconfigurationid-get-openapi.md
+- name: No Title - DELETE Bucket inventory configuration
+  x-api-slug: inventoryampidinventoryconfigurationid-delete
+  description: This implementation of the DELETE operation deletes an inventory configuration(identified
+    by the inventory configuration ID) from the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidinventoryconfigurationid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidinventoryconfigurationid-delete-openapi.md
+- name: No Title - DELETE Bucket inventory configuration
+  x-api-slug: inventoryampidinventoryconfigurationid-delete
+  description: This implementation of the DELETE operation deletes an inventory configuration(identified
+    by the inventory configuration ID) from the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidinventoryconfigurationid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidinventoryconfigurationid-delete-openapi.md
+- name: No Title - PUT Bucket inventory configuration
+  x-api-slug: inventoryampidconfigurationid-put
+  description: This implementation of the PUT operation adds an inventory configuration(identified
+    by the inventory ID) to the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidconfigurationid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidconfigurationid-put-openapi.md
+- name: No Title - PUT Bucket inventory configuration
+  x-api-slug: inventoryampidconfigurationid-put
+  description: This implementation of the PUT operation adds an inventory configuration(identified
+    by the inventory ID) to the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidconfigurationid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/inventoryampidconfigurationid-put-openapi.md
+- name: No Title - PUT Bucket analytics configuration
+  x-api-slug: analyticsampidconfigurationid-put
+  description: This implementation of the PUT operation adds an analytics configuration(identified
+    by the analytics ID) to the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analyticsampidconfigurationid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analyticsampidconfigurationid-put-openapi.md
+- name: No Title - PUT Bucket analytics configuration
+  x-api-slug: analyticsampidconfigurationid-put
+  description: This implementation of the PUT operation adds an analytics configuration(identified
+    by the analytics ID) to the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analyticsampidconfigurationid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analyticsampidconfigurationid-put-openapi.md
+- name: No Title - GET Bucket analytics configuration
+  x-api-slug: analyticsampidanalyticsconfigurationid-get
+  description: This implementation of the GET operation returns an analytics configuration
+    (identified bythe analytics configuration ID) from the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analyticsampidanalyticsconfigurationid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analyticsampidanalyticsconfigurationid-get-openapi.md
+- name: No Title - GET Bucket analytics configuration
+  x-api-slug: analyticsampidanalyticsconfigurationid-get
+  description: This implementation of the GET operation returns an analytics configuration
+    (identified bythe analytics configuration ID) from the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analyticsampidanalyticsconfigurationid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-s3/analyticsampidanalyticsconfigurationid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.route.53.api.gallery.streamdata.io

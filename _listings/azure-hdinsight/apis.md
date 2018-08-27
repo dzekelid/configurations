@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-get-openapi.md
+- name: HDInsightManagementClient - Configurations Update HTTPSettings
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-post
+  description: Begins configuring the HTTP settings on the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
+  humanURL: https://azure.microsoft.com/en-us/services/hdinsight/
+  baseURL: ://management.azure.com//
+  tags: Data, Analysis, Microsoft, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-post-openapi.md
+- name: HDInsightManagementClient - Configurations Update HTTPSettings
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-post
+  description: Begins configuring the HTTP settings on the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
+  humanURL: https://azure.microsoft.com/en-us/services/hdinsight/
+  baseURL: ://management.azure.com//
+  tags: Data, Analysis, Microsoft, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-post-openapi.md
+- name: HDInsightManagementClient - Configurations Update HTTPSettings
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-post
+  description: Begins configuring the HTTP settings on the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
+  humanURL: https://azure.microsoft.com/en-us/services/hdinsight/
+  baseURL: ://management.azure.com//
+  tags: Data, Analysis, Microsoft, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameconfigurationsconfigurationname-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://azure.event.hubs.api.gallery.streamdata.io

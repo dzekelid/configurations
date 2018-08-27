@@ -9,11 +9,53 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stri
 x-kinRank: "8"
 x-alexaRank: "40723"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/stride/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Stride - Send app configuration updates
+  x-api-slug: appmodulechatconversationchatconfigurationkeystate-post
+  description: |-
+    Post app configuration updates telling the.
+
+    Authentication required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/stride/appmodulechatconversationchatconfigurationkeystate-post-openapi.md
+- name: Stride - Send app configuration updates
+  x-api-slug: appmodulechatconversationchatconfigurationkeystate-post
+  description: |-
+    Post app configuration updates telling the.
+
+    Authentication required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/stride/appmodulechatconversationchatconfigurationkeystate-post-openapi.md
+- name: Stride - Send app configuration updates
+  x-api-slug: appmodulechatconversationchatconfigurationkeystate-post
+  description: |-
+    Post app configuration updates telling the.
+
+    Authentication required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/stride/appmodulechatconversationchatconfigurationkeystate-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://strava.api.gallery.streamdata.io

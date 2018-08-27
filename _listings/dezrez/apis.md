@@ -7,11 +7,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dezrez.Rezi.Client.Api - Set portal configuration exclusivity overrides
+  x-api-slug: apiroleidsetportaloverrides-put
+  description: Set portal configuration exclusivity overrides.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiroleidsetportaloverrides-put-openapi.md
 - name: Dezrez.Rezi.Client.Api - Get the milestone configurations for an agency
   x-api-slug: apiagencymilestoneconfigurations-get
   description: Get the milestone configurations for an agency.
@@ -37,6 +47,119 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiagencyportalconfigurations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiagencyportalconfigurations-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Set portal configuration exclusivity overrides
+  x-api-slug: apiroleidsetportaloverrides-put
+  description: Set portal configuration exclusivity overrides.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiroleidsetportaloverrides-put-openapi.md
+- name: 'Dezrez.Rezi.Client.Api - '
+  x-api-slug: apienlistedfeatureexecutestepfeatureconfigurationfeatureconfigurationidstepstepidroleroleid-post
+  description: .
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apienlistedfeatureexecutestepfeatureconfigurationfeatureconfigurationidstepstepidroleroleid-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get the milestone configurations for an agency
+  x-api-slug: apiagencymilestoneconfigurations-get
+  description: Get the milestone configurations for an agency.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiagencymilestoneconfigurations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiagencymilestoneconfigurations-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get a list of portal configurations for the brand
+    within a branch.
+  x-api-slug: apiagencyportalconfigurations-get
+  description: Get a list of portal configurations for the brand within a branch..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiagencyportalconfigurations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiagencyportalconfigurations-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets the config back for a screen with a guid that
+    was registered against a branch
+  x-api-slug: apiscreenzconfigscreenid-get
+  description: Gets the config back for a screen with a guid that was registered against
+    a branch.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiscreenzconfigscreenid-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets the config back for a screen with a guid that
+    was registered against a branch
+  x-api-slug: apiscreenzregistered-get
+  description: Gets the config back for a screen with a guid that was registered against
+    a branch.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiscreenzregistered-get-openapi.md
+- name: 'Dezrez.Rezi.Client.Api - '
+  x-api-slug: apienlistedfeatureexecutestepfeatureconfigurationfeatureconfigurationidstepstepidroleroleid-post
+  description: .
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apienlistedfeatureexecutestepfeatureconfigurationfeatureconfigurationidstepstepidroleroleid-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets the config back for a screen with a guid that
+    was registered against a branch
+  x-api-slug: apiscreenzregistered-get
+  description: Gets the config back for a screen with a guid that was registered against
+    a branch.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiscreenzregistered-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets the config back for a screen with a guid that
+    was registered against a branch
+  x-api-slug: apiscreenzconfigscreenid-get
+  description: Gets the config back for a screen with a guid that was registered against
+    a branch.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiscreenzconfigscreenid-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Set portal configuration exclusivity overrides
+  x-api-slug: apiroleidsetportaloverrides-put
+  description: Set portal configuration exclusivity overrides.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/dezrez/apiroleidsetportaloverrides-put-openapi.md
 - name: Dezrez.Rezi.Client.Api - Get the milestone configurations for an agency
   x-api-slug: apiagencymilestoneconfigurations-get
   description: Get the milestone configurations for an agency.

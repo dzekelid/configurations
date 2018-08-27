@@ -14,11 +14,353 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Elastic Beanstalk API - Create Configuration Template
+  x-api-slug: actioncreateconfigurationtemplate-get
+  description: Creates a configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actioncreateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Delete Configuration Template
+  x-api-slug: actiondeleteconfigurationtemplate-get
+  description: Deletes the specified configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondeleteconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Update Configuration Template
+  x-api-slug: actionupdateconfigurationtemplate-get
+  description: |-
+    Updates the specified configuration template to have the specified properties or
+          configuration option values.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actionupdateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Describe Configuration Options
+  x-api-slug: actiondescribeconfigurationoptions-get
+  description: |-
+    Describes the configuration options that are used in a particular configuration
+          template or environment, or that a specified solution stack defines.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondescribeconfigurationoptions-get-openapi.md
+- name: AWS Elastic Beanstalk API - Create Configuration Template
+  x-api-slug: actioncreateconfigurationtemplate-get
+  description: Creates a configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actioncreateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Delete Configuration Template
+  x-api-slug: actiondeleteconfigurationtemplate-get
+  description: Deletes the specified configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondeleteconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Delete Environment Configuration
+  x-api-slug: actiondeleteenvironmentconfiguration-get
+  description: Deletes the draft configuration associated with the running environment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondeleteenvironmentconfiguration-get-openapi.md
+- name: AWS Elastic Beanstalk API - Describe Configuration Options
+  x-api-slug: actiondescribeconfigurationoptions-get
+  description: |-
+    Describes the configuration options that are used in a particular configuration
+          template or environment, or that a specified solution stack defines.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondescribeconfigurationoptions-get-openapi.md
+- name: AWS Elastic Beanstalk API - Describe Configuration Settings
+  x-api-slug: actiondescribeconfigurationsettings-get
+  description: |-
+    Returns a description of the settings for the specified configuration set, that is,
+          either a configuration template or the configuration set associated with a running
+          environment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondescribeconfigurationsettings-get-openapi.md
+- name: AWS Elastic Beanstalk API - Update Configuration Template
+  x-api-slug: actionupdateconfigurationtemplate-get
+  description: |-
+    Updates the specified configuration template to have the specified properties or
+          configuration option values.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actionupdateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Validate Configuration Settings
+  x-api-slug: actionvalidateconfigurationsettings-get
+  description: |-
+    Takes a set of configuration settings and either a configuration template or
+          environment, and determines whether those values are valid.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actionvalidateconfigurationsettings-get-openapi.md
+- name: AWS Elastic Beanstalk API - Create Configuration Template
+  x-api-slug: actioncreateconfigurationtemplate-get
+  description: Creates a configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actioncreateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Delete Configuration Template
+  x-api-slug: actiondeleteconfigurationtemplate-get
+  description: Deletes the specified configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondeleteconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Update Configuration Template
+  x-api-slug: actionupdateconfigurationtemplate-get
+  description: |-
+    Updates the specified configuration template to have the specified properties or
+          configuration option values.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actionupdateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Describe Configuration Options
+  x-api-slug: actiondescribeconfigurationoptions-get
+  description: |-
+    Describes the configuration options that are used in a particular configuration
+          template or environment, or that a specified solution stack defines.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondescribeconfigurationoptions-get-openapi.md
+- name: AWS Elastic Beanstalk API - Create Configuration Template
+  x-api-slug: actioncreateconfigurationtemplate-get
+  description: Creates a configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actioncreateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Delete Configuration Template
+  x-api-slug: actiondeleteconfigurationtemplate-get
+  description: Deletes the specified configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondeleteconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Delete Environment Configuration
+  x-api-slug: actiondeleteenvironmentconfiguration-get
+  description: Deletes the draft configuration associated with the running environment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondeleteenvironmentconfiguration-get-openapi.md
+- name: AWS Elastic Beanstalk API - Describe Configuration Options
+  x-api-slug: actiondescribeconfigurationoptions-get
+  description: |-
+    Describes the configuration options that are used in a particular configuration
+          template or environment, or that a specified solution stack defines.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondescribeconfigurationoptions-get-openapi.md
+- name: AWS Elastic Beanstalk API - Describe Configuration Settings
+  x-api-slug: actiondescribeconfigurationsettings-get
+  description: |-
+    Returns a description of the settings for the specified configuration set, that is,
+          either a configuration template or the configuration set associated with a running
+          environment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondescribeconfigurationsettings-get-openapi.md
+- name: AWS Elastic Beanstalk API - Update Configuration Template
+  x-api-slug: actionupdateconfigurationtemplate-get
+  description: |-
+    Updates the specified configuration template to have the specified properties or
+          configuration option values.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actionupdateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Validate Configuration Settings
+  x-api-slug: actionvalidateconfigurationsettings-get
+  description: |-
+    Takes a set of configuration settings and either a configuration template or
+          environment, and determines whether those values are valid.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actionvalidateconfigurationsettings-get-openapi.md
+- name: AWS Elastic Beanstalk API - Create Configuration Template
+  x-api-slug: actioncreateconfigurationtemplate-get
+  description: Creates a configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actioncreateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Delete Configuration Template
+  x-api-slug: actiondeleteconfigurationtemplate-get
+  description: Deletes the specified configuration template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondeleteconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Update Configuration Template
+  x-api-slug: actionupdateconfigurationtemplate-get
+  description: |-
+    Updates the specified configuration template to have the specified properties or
+          configuration option values.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actionupdateconfigurationtemplate-get-openapi.md
+- name: AWS Elastic Beanstalk API - Describe Configuration Options
+  x-api-slug: actiondescribeconfigurationoptions-get
+  description: |-
+    Describes the configuration options that are used in a particular configuration
+          template or environment, or that a specified solution stack defines.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-elastic-beanstalk/actiondescribeconfigurationoptions-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.ec2.systems.manager.api.gallery.streamdata.io

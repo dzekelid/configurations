@@ -30,6 +30,23 @@ paths:
           description: OK
       tags:
       - Identity Pools
+  /?Action=SetIdentityPoolConfiguration:
+    get:
+      summary: Set Identity Pool Configuration
+      description: Sets the necessary configuration for push sync.
+      operationId: setIdentityPoolConfiguration
+      x-api-path-slug: actionsetidentitypoolconfiguration-get
+      parameters:
+      - in: query
+        name: IdentityPoolId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)
+          created by Amazon Cognito
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Identity Pools
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

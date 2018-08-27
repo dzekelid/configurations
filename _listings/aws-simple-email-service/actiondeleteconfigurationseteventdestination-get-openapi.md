@@ -90,6 +90,69 @@ paths:
           description: OK
       tags:
       - Configuration Set Event Destination
+  /?Action=DescribeConfigurationSet:
+    get:
+      summary: Describe Configuration Set
+      description: Returns the details of the specified configuration set.
+      operationId: describeConfigurationSet
+      x-api-path-slug: actiondescribeconfigurationset-get
+      parameters:
+      - in: query
+        name: ConfigurationSetAttributeNames.member.N
+        description: A list of configuration set attributes to return
+        type: string
+      - in: query
+        name: ConfigurationSetName
+        description: The name of the configuration set to describe
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Sets
+  /?Action=ListConfigurationSets:
+    get:
+      summary: List Configuration Sets
+      description: Lists the configuration sets associated with your AWS account.
+      operationId: listConfigurationSets
+      x-api-path-slug: actionlistconfigurationsets-get
+      parameters:
+      - in: query
+        name: MaxItems
+        description: The number of configuration sets to return
+        type: string
+      - in: query
+        name: NextToken
+        description: A token returned from a previous call to ListConfigurationSets
+          to indicate the position of the configuration set in the configuration set
+          list
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Sets
+  /?Action=UpdateConfigurationSetEventDestination:
+    get:
+      summary: Update Configuration Set Event Destination
+      description: Updates the event destination of a configuration set.
+      operationId: updateConfigurationSetEventDestination
+      x-api-path-slug: actionupdateconfigurationseteventdestination-get
+      parameters:
+      - in: query
+        name: ConfigurationSetName
+        description: The name of the configuration set that you want to update
+        type: string
+      - in: query
+        name: EventDestination
+        description: The event destination object that you want to apply to the specified
+          configuration set
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Set Event Destination
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

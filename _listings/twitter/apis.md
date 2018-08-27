@@ -7,11 +7,27 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Twitter - Help Configuration
+  x-api-slug: helpconfiguration-get
+  description: Returns the current configuration used by Twitter including twitter.com
+    slugs which are not usernames
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  humanURL: https://twitter.com/
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/twitter/helpconfiguration-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/twitter/helpconfiguration-get-openapi.md
 - name: Twitter - Help Configuration
   x-api-slug: helpconfiguration-get
   description: Returns the current configuration used by Twitter including twitter.com

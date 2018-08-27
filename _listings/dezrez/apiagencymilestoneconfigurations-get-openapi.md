@@ -110,6 +110,60 @@ paths:
           description: OK
       tags:
       - ""
+  /api/screenz/config/{screenid}:
+    get:
+      summary: Gets the config back for a screen with a guid that was registered against
+        a branch
+      description: Gets the config back for a screen with a guid that was registered
+        against a branch.
+      operationId: Screenz_ConfigByscreenid
+      x-api-path-slug: apiscreenzconfigscreenid-get
+      parameters:
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: path
+        name: screenid
+      responses:
+        200:
+          description: OK
+      tags:
+      - S
+      - Config
+      - Backa
+      - Screen
+      - Guid
+      - That
+      - Was
+      - Registered
+      - Against
+      - Branch
+  /api/screenz/registered:
+    get:
+      summary: Gets the config back for a screen with a guid that was registered against
+        a branch
+      description: Gets the config back for a screen with a guid that was registered
+        against a branch.
+      operationId: Screenz_Registered
+      x-api-path-slug: apiscreenzregistered-get
+      parameters:
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - S
+      - Config
+      - Backa
+      - Screen
+      - Guid
+      - That
+      - Was
+      - Registered
+      - Against
+      - Branch
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

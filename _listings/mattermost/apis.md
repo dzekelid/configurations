@@ -8,11 +8,332 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "95684"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Mattermost API Reference - Get configuration
+  x-api-slug: config-get
+  description: |-
+    Retrieve the current server configuration
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/config-get-openapi.md
+- name: Mattermost API Reference - Update configuration
+  x-api-slug: config-put
+  description: |-
+    Submit a new configuration for the server to use. As of server version 4.8, the `PluginSettings.EnableUploads` setting cannot be modified by this endpoint.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/config-put-openapi.md
+- name: Mattermost API Reference - Reload configuration
+  x-api-slug: configreload-post
+  description: |-
+    Reload the configuration file to pick up on any changes made to it.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/configreload-post-openapi.md
+- name: Mattermost API Reference - Get client configuration
+  x-api-slug: configclient-get
+  description: |-
+    Get a subset of the server configuration needed by the client.
+    ##### Permissions
+    No permission required.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/configclient-get-openapi.md
+- name: Mattermost API Reference - Get configuration made through environment variables
+  x-api-slug: configenvironment-get
+  description: |-
+    Retrieve a json object mirroring the server configuration where fields are set to true
+    if the corresponding config setting is set through an environment variable. Settings
+    that haven't been set through environment variables will be missing from the object.
+
+    __Minimum server version__: 4.10
+
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/configenvironment-get-openapi.md
+- name: Mattermost API Reference - Test LDAP configuration
+  x-api-slug: ldaptest-post
+  description: |-
+    Test the current AD/LDAP configuration to see if the AD/LDAP server can be contacted successfully.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/ldaptest-post-openapi.md
+- name: Mattermost API Reference - Test Elasticsearch configuration
+  x-api-slug: elasticsearchtest-post
+  description: |-
+    Test the current Elasticsearch configuration to see if the Elasticsearch server can be contacted successfully.
+    Optionally provide a configuration in the request body to test. If no valid configuration is present in the
+    request body the current server configuration will be tested.
+
+    __Minimum server version__: 4.1
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/elasticsearchtest-post-openapi.md
+- name: Mattermost API Reference - Get configuration
+  x-api-slug: config-get
+  description: |-
+    Retrieve the current server configuration
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/config-get-openapi.md
+- name: Mattermost API Reference - Update configuration
+  x-api-slug: config-put
+  description: |-
+    Submit a new configuration for the server to use. As of server version 4.8, the `PluginSettings.EnableUploads` setting cannot be modified by this endpoint.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/config-put-openapi.md
+- name: Mattermost API Reference - Reload configuration
+  x-api-slug: configreload-post
+  description: |-
+    Reload the configuration file to pick up on any changes made to it.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/configreload-post-openapi.md
+- name: Mattermost API Reference - Get client configuration
+  x-api-slug: configclient-get
+  description: |-
+    Get a subset of the server configuration needed by the client.
+    ##### Permissions
+    No permission required.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/configclient-get-openapi.md
+- name: Mattermost API Reference - Get configuration made through environment variables
+  x-api-slug: configenvironment-get
+  description: |-
+    Retrieve a json object mirroring the server configuration where fields are set to true
+    if the corresponding config setting is set through an environment variable. Settings
+    that haven't been set through environment variables will be missing from the object.
+
+    __Minimum server version__: 4.10
+
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/configenvironment-get-openapi.md
+- name: Mattermost API Reference - Test LDAP configuration
+  x-api-slug: ldaptest-post
+  description: |-
+    Test the current AD/LDAP configuration to see if the AD/LDAP server can be contacted successfully.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/ldaptest-post-openapi.md
+- name: Mattermost API Reference - Test Elasticsearch configuration
+  x-api-slug: elasticsearchtest-post
+  description: |-
+    Test the current Elasticsearch configuration to see if the Elasticsearch server can be contacted successfully.
+    Optionally provide a configuration in the request body to test. If no valid configuration is present in the
+    request body the current server configuration will be tested.
+
+    __Minimum server version__: 4.1
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/elasticsearchtest-post-openapi.md
+- name: Mattermost API Reference - Test Elasticsearch configuration
+  x-api-slug: elasticsearchtest-post
+  description: |-
+    Test the current Elasticsearch configuration to see if the Elasticsearch server can be contacted successfully.
+    Optionally provide a configuration in the request body to test. If no valid configuration is present in the
+    request body the current server configuration will be tested.
+
+    __Minimum server version__: 4.1
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/elasticsearchtest-post-openapi.md
+- name: Mattermost API Reference - Test LDAP configuration
+  x-api-slug: ldaptest-post
+  description: |-
+    Test the current AD/LDAP configuration to see if the AD/LDAP server can be contacted successfully.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/ldaptest-post-openapi.md
+- name: Mattermost API Reference - Get configuration made through environment variables
+  x-api-slug: configenvironment-get
+  description: |-
+    Retrieve a json object mirroring the server configuration where fields are set to true
+    if the corresponding config setting is set through an environment variable. Settings
+    that haven't been set through environment variables will be missing from the object.
+
+    __Minimum server version__: 4.10
+
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/configenvironment-get-openapi.md
+- name: Mattermost API Reference - Get client configuration
+  x-api-slug: configclient-get
+  description: |-
+    Get a subset of the server configuration needed by the client.
+    ##### Permissions
+    No permission required.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/configclient-get-openapi.md
+- name: Mattermost API Reference - Reload configuration
+  x-api-slug: configreload-post
+  description: |-
+    Reload the configuration file to pick up on any changes made to it.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/configreload-post-openapi.md
+- name: Mattermost API Reference - Update configuration
+  x-api-slug: config-put
+  description: |-
+    Submit a new configuration for the server to use. As of server version 4.8, the `PluginSettings.EnableUploads` setting cannot be modified by this endpoint.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/config-put-openapi.md
+- name: Mattermost API Reference - Get configuration
+  x-api-slug: config-get
+  description: |-
+    Retrieve the current server configuration
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/mattermost/config-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://matrix.api.gallery.streamdata.io

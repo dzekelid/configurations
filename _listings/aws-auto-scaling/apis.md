@@ -13,8 +13,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/apis.md
 specificationVersion: "0.14"
 apis:
@@ -32,6 +32,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondescribelaunchconfigurations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondescribelaunchconfigurations-get-openapi.md
+- name: AWS Auto Scaling API - Describe Notification Configurations
+  x-api-slug: actiondescribenotificationconfigurations-get
+  description: Describes the notification actions associated with the specified Auto
+    Scaling group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondescribenotificationconfigurations-get-openapi.md
 - name: AWS Auto Scaling API - Create Launch Configuration
   x-api-slug: actioncreatelaunchconfiguration-get
   description: Creates a launch configuration.
@@ -60,6 +73,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondeletelaunchconfiguration-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondeletelaunchconfiguration-get-openapi.md
+- name: AWS Auto Scaling API - Delete Notification Configuration
+  x-api-slug: actiondeletenotificationconfiguration-get
+  description: Deletes the specified notification.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondeletenotificationconfiguration-get-openapi.md
 - name: AWS Auto Scaling API - Describe Launch Configurations
   x-api-slug: actiondescribelaunchconfigurations-get
   description: Describes one or more launch configurations.
@@ -74,6 +99,112 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondescribelaunchconfigurations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondescribelaunchconfigurations-get-openapi.md
+- name: AWS Auto Scaling API - Describe Notification Configurations
+  x-api-slug: actiondescribenotificationconfigurations-get
+  description: Describes the notification actions associated with the specified Auto
+    Scaling group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondescribenotificationconfigurations-get-openapi.md
+- name: AWS Auto Scaling API - Put Notification Configuration
+  x-api-slug: actionputnotificationconfiguration-get
+  description: Configures an Auto Scaling group to send notifications when specified
+    events take place.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actionputnotificationconfiguration-get-openapi.md
+- name: AWS Auto Scaling API - Create Launch Configuration
+  x-api-slug: actioncreatelaunchconfiguration-get
+  description: Creates a launch configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actioncreatelaunchconfiguration-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actioncreatelaunchconfiguration-get-openapi.md
+- name: AWS Auto Scaling API - Delete Launch Configuration
+  x-api-slug: actiondeletelaunchconfiguration-get
+  description: Deletes the specified launch configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondeletelaunchconfiguration-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondeletelaunchconfiguration-get-openapi.md
+- name: AWS Auto Scaling API - Delete Notification Configuration
+  x-api-slug: actiondeletenotificationconfiguration-get
+  description: Deletes the specified notification.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondeletenotificationconfiguration-get-openapi.md
+- name: AWS Auto Scaling API - Describe Launch Configurations
+  x-api-slug: actiondescribelaunchconfigurations-get
+  description: Describes one or more launch configurations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondescribelaunchconfigurations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondescribelaunchconfigurations-get-openapi.md
+- name: AWS Auto Scaling API - Describe Notification Configurations
+  x-api-slug: actiondescribenotificationconfigurations-get
+  description: Describes the notification actions associated with the specified Auto
+    Scaling group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actiondescribenotificationconfigurations-get-openapi.md
+- name: AWS Auto Scaling API - Put Notification Configuration
+  x-api-slug: actionputnotificationconfiguration-get
+  description: Configures an Auto Scaling group to send notifications when specified
+    events take place.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-auto-scaling/actionputnotificationconfiguration-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.appstream.api.gallery.streamdata.io

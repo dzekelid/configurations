@@ -7,11 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer
 x-kinRank: "7"
 x-alexaRank: "2789"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/buffer/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Bufferapp - Get Info Configuration Mediatypeextension
+  x-api-slug: infoconfigurationmediatypeextension-get
+  description: Returns an object with the current configuration that Buffer is using,
+    including supported services, their icons and the varying limits of character
+    and schedules.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer.jpg
+  humanURL: http://bufferapp.com
+  baseURL: https://api.bufferapp.com//1/
+  tags: Social, Social Sharing, Social, Technology, SaaS, Mobile, internet, API Provider,
+    API Service Provider, Profiles, Schedules, Schedules, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/buffer/infoconfigurationmediatypeextension-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/buffer/infoconfigurationmediatypeextension-get-openapi.md
 - name: Bufferapp - Get Info Configuration Mediatypeextension
   x-api-slug: infoconfigurationmediatypeextension-get
   description: Returns an object with the current configuration that Buffer is using,

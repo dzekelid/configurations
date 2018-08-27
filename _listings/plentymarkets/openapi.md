@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Plentymarkets
 x-complete: 1
@@ -357,4 +356,26 @@ paths:
       - Country
       - Of
       - Delivery
----
+  /rest/logs/settings:
+    get:
+      summary: Show config.
+      description: Show config..
+      operationId: getRestLogsSettings
+      x-api-path-slug: restlogssettings-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Show
+      - Config
+    post:
+      summary: Save config.
+      description: Save config..
+      operationId: postRestLogsSettings
+      x-api-path-slug: restlogssettings-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Save
+      - Config

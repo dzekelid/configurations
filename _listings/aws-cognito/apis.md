@@ -15,11 +15,39 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Configurations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-cognito/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Cognito Merged API - Get Identity Pool Configuration
+  x-api-slug: actiongetidentitypoolconfiguration-get
+  description: Gets the configuration settings of an identity pool.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-cognito/actiongetidentitypoolconfiguration-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-cognito/actiongetidentitypoolconfiguration-get-openapi.md
+- name: AWS Cognito Merged API - Set Identity Pool Configuration
+  x-api-slug: actionsetidentitypoolconfiguration-get
+  description: Sets the necessary configuration for push sync.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-cognito/actionsetidentitypoolconfiguration-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/configurations/master/_listings/aws-cognito/actionsetidentitypoolconfiguration-get-openapi.md
 - name: AWS Cognito Merged API - Get Identity Pool Configuration
   x-api-slug: actiongetidentitypoolconfiguration-get
   description: Gets the configuration settings of an identity pool.

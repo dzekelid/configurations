@@ -132,6 +132,27 @@ paths:
           description: OK
       tags:
       - Configuration Sets
+  /?Action=UpdateConfigurationSetEventDestination:
+    get:
+      summary: Update Configuration Set Event Destination
+      description: Updates the event destination of a configuration set.
+      operationId: updateConfigurationSetEventDestination
+      x-api-path-slug: actionupdateconfigurationseteventdestination-get
+      parameters:
+      - in: query
+        name: ConfigurationSetName
+        description: The name of the configuration set that you want to update
+        type: string
+      - in: query
+        name: EventDestination
+        description: The event destination object that you want to apply to the specified
+          configuration set
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Set Event Destination
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
